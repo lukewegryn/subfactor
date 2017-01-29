@@ -1,6 +1,8 @@
-# Subfactor
+#Subfactor
 
 Subfactor is a tool used in Windows x86 32-bit exploit development to encode an Egghunter using a set of known good characters. It uses the EAX register to perform the relative ESP calculation, as well as the arithmatic for decoding the egghunter.
+
+It can generate both assembly instructions (for use in debugger) and hex shellcode (for use in payloads)
 
 ## Usage
 
