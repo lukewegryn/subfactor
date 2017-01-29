@@ -4,9 +4,10 @@ Subfactor is a tool used in Windows x86 32-bit exploit development to encode an 
 
 ## Usage
 
-```python
+```bash
 python subfactor [-h|-a] <32 bit hex egghunter> <offset from ESP>
-
+```
+```
 [-h|-a] - hex or assembly output
 <32 bit egghunter> : The egghunter you want to encode (!mona egghunter -t w00t) with quotes included
 <offset from ESP> : Address you WANT ESP to point to - Address ESP IS pointing to
